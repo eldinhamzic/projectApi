@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "LRqoaN0OUVBbxXVAYUP/xhoIntsQbLkYQxi8Rosd+K0=",
+  "Source": "InfinityMesh",
+  "BasePath": "_content/InfinityMesh",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "InfinityMesh\\wwwroot",
+      "Source": "InfinityMesh",
+      "ContentRoot": "C:\\Users\\Eldin\\Desktop\\infinitiymesh\\Backend\\InfinityMesh\\wwwroot\\",
+      "BasePath": "_content/InfinityMesh",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eldin\\Desktop\\infinitiymesh\\Backend\\InfinityMesh\\wwwroot\\files\\Book1.csv",
+      "SourceId": "InfinityMesh",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eldin\\Desktop\\infinitiymesh\\Backend\\InfinityMesh\\wwwroot\\",
+      "BasePath": "_content/InfinityMesh",
+      "RelativePath": "files/Book1.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Book1.csv"
+    }
+  ]
+}
