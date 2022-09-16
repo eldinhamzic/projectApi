@@ -6,7 +6,9 @@ namespace InfinityMesh.Models
     {
         public Candidate()
         {
+
             this.Votes = new HashSet<Votes>();
+
         }
 
         [Key]
@@ -14,8 +16,8 @@ namespace InfinityMesh.Models
         public string FullName { get; set; }
         public string Code { get; set; }
         public int AllVotes { get; set; }
+        public bool OverrideFile { get; set; }
 
         public virtual ICollection<Votes> Votes { get; set; }
-
     }
 }

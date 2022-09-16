@@ -7,11 +7,16 @@ namespace InfinityMesh.Models
         public Constituency()
         {
             this.Votes = new HashSet<Votes>();
+
         }
         [Key]
         public int ConstituencyId { get; set; }
         public string Name { get; set; }
+        public int VotesFromConstituency { get; set; }
+
 
         public virtual ICollection<Votes> Votes { get; set; }
+
+        
     }
 }
