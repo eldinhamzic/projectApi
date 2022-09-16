@@ -38,7 +38,7 @@ namespace InfinityMesh.Controllers
         public IActionResult Index(IFormFile file, [FromServices] Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
         {
             #region Upload CSV
-            string fileName = $"{hostingEnvironment.WebRootPath}\\files\\{file.FileName}";
+            string fileName = $"https://localhost:7116/api/Result/{file.FileName}";
 
             using (FileStream fileStream = System.IO.File.Create(fileName)) 
             {
